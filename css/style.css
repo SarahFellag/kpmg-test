@@ -785,13 +785,22 @@ left: 13rem;
 
 .button {
   background-color: transparent; /* Green */
-  border: none;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
+  bottom: -11rem;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
+  width: 200px;
+  height: 75px;
+  border: 2px solid white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  border-top-left-radius: 35px;
+}
+.button:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+
 }
 /*******************************
 ******************************
