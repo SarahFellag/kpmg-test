@@ -1,4 +1,3 @@
-
 <?php ?>
 <!DOCTYPE html>
 <html lang="fr-FR">
@@ -464,8 +463,8 @@
             <div class="fourth-div">
                 <div class="title-div">
                     <h3>Contacts événements</h3>
-                    <button>df</button>
-                    <button>ds</button>
+                     <button onclick="window.location.href='https://home.kpmg/xx/en/home/misc/contact.html';" class="button">Contact EIM</button>
+                     <button onclick="window.location.href='https://home.kpmg/xx/en/home/misc/contact.html';" class="button">Contact KPMG</button>
                 </div>
         </div>
     </div>
