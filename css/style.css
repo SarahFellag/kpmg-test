@@ -245,7 +245,7 @@ td {
 .row {
   display: flex;
   padding-left: 130px;
-  padding-right: 208px;
+  padding-right: 130px;
   padding-top: 0px;
   padding-bottom: 0px;
   top: -87px;
@@ -813,13 +813,6 @@ END************
 **********************
 ************
 *********/
-
-
-
-
-
-
-
 
 
 
@@ -1467,13 +1460,34 @@ height: 102px;
     font-size: 10px;
   }
   .desc-box p {
-    font-size: 8px;
+    font-size: 12px;
   }
   .desc-box {
     top: -617px;
+    margin-left: 76px;
+    margin-right: 55px;
   }
+  .desc-box h1 {
+    font-size: 14px;
+  }
+  #price-title {
+    font-size: 28px;
+  }
+  #paragraph-price {
+    font-size: 15px;
+  }
+  #prix-position{
+    padding-left: 0px !important;
+padding-right: 0px !important;
+  }
+  #prix-position {
+    top: -599px;
+  }
+  
 
 }
+@media screen and (max-width: 575px) {}
+@media screen and (max-width: 480px) {}
 @media screen and (max-width: 360px) {
   .logo {
     margin-left: -134px;
@@ -1568,4 +1582,6 @@ top: -267px;
 }
 .events {
   top: -127rem;
+}
+
 }
