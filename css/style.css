@@ -1474,3 +1474,98 @@ height: 102px;
   }
 
 }
+@media screen and (max-width: 360px) {
+  .logo {
+    margin-left: -134px;
+    margin-top: -16rem;
+  }
+  #img1 {
+    width: 70px;
+    height: 26px;
+  }
+  #img2 {
+    width: 120px;
+    height: 33px;
+  }
+  .logo2 {
+    margin-left: -62px;
+    margin-top: -16rem;
+  }
+  .countdown-container {
+    padding-left: 0rem;
+    padding-top: 0rem;
+    position: relative;
+    top: -12rem;
+  }
+  .countdown-container {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 6px;
+    font-weight: bold;
+  }
+  .desc-box h1 {
+    font-size: 11px;
+  }
+  .desc-box p {
+    font-size: 8px;
+  }
+  .desc-box {
+    top: -723px;
+  
+  }
+  #prix-position {
+    top: -721px;
+  }
+  #price-content-span {
+    font-size: 12px;
+  }
+  ul {
+    top: 0rem;
+    left: -3rem;
+  }
+  #list-content-price {
+    font-size: 8px;
+  }
+  .cards {
+    top: -643px;
+  }
+  .wrapper {
+    display: block;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .card {
+    padding-left: 137px;
+  }
+  .card .slide {
+    width: 133px;
+    height: 198px;
+  }
+  .timeline {
+    top: -66rem;
+    height: 49rem;
+  }
+  #timeline-image {
+    padding-top: 7rem;
+  }
+  #team-pos{
+  display: block;
+padding-left: 36px;
+padding-right: -1px;
+top: -267px;
+
+
+}
+.member{
+  padding-left: 5rem;
+}
+.right-man-team {
+  width: 99%;
+  display: block;
+  padding-top: 80px;
+}
+.left-team {
+  width: 99%;
+}
+.events {
+  top: -127rem;
+}
