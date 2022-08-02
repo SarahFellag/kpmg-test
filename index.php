@@ -259,7 +259,7 @@
 
 
 <section class="team"data-aos="fade-up">
-    <div class="row">
+    <div class="row" id="team-pos">
         <div class="left-team">
             <h1 id="team-title">Jury</h1>
             <p id="team-desc">Le jury se compose, cette année, de 3 associés
