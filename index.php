@@ -147,9 +147,9 @@
     <div class="slide slide2">
         <div class="content">
             <h3>
-                Hello there!
+                
             </h3>
-            <p id="text-card">Trust yourself and keep going.</p>
+            <p id="text-card"></p>
         </div>
     </div>
 </div>
@@ -165,9 +165,9 @@
     <div class="slide slide2">
         <div class="content">
             <h3>
-                Hello there!
+                
             </h3>
-            <p id="text-card">Trust yourself and keep going.</p>
+            <p id="text-card"></p>
         </div>
     </div>
 </div>
@@ -183,9 +183,9 @@
     <div class="slide slide2">
         <div class="content">
             <h3>
-                Hello there!
+                
             </h3>
-            <p id="text-card">Trust yourself and keep going.</p>
+            <p id="text-card"></p>
         </div>
     </div>
 </div>
@@ -202,9 +202,9 @@
         <div class="slide slide2">
             <div class="content">
                 <h3>
-                    Hello there!
+                 
                 </h3>
-                <p id="text-card">Trust yourself and keep going.</p>
+                <p id="text-card"></p>
             </div>
         </div>
     </div>
@@ -220,9 +220,9 @@
         <div class="slide slide2">
             <div class="content">
                 <h3>
-                    Hello there!
+                    
                 </h3>
-                <p id="text-card">Trust yourself and keep going.</p>
+                <p id="text-card"></p>
             </div>
         </div>
     </div>
@@ -238,9 +238,9 @@
         <div class="slide slide2">
             <div class="content">
                 <h3>
-                    Hello there!
+                  
                 </h3>
-                <p id="text-card">Trust yourself and keep going.</p>
+                <p id="text-card"></p>
             </div>
         </div>
     </div>
