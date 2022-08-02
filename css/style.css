@@ -784,22 +784,22 @@ left: 13rem;
 }
 
 .button {
-  background-color: transparent !important; 
-  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31) !important; 
-  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31)!important;
-  bottom: -11rem !important;
-  color: white !important;
-  width: 200px !important;
-  height: 75px !important;
-  border: 2px solid white !important;
-  font-size: 22px !important;
-  font-family: "Montserrat", sans-serif !important;
-  border-top-left-radius: 35px !important;
+  background-color: transparent; /* Green */
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.31);
+  bottom: -11rem;
+  color: white;
+  width: 200px;
+  height: 75px;
+  border: 2px solid white;
+  font-size: 22px;
+  font-family: "Montserrat", sans-serif;
+  border-top-left-radius: 35px;
 }
 .button:hover{
-  background-color: white !important;
-  color: black !important;
-  border: 2px solid black!important;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
 
 }
 /*******************************
@@ -971,6 +971,44 @@ li{
   }
   .right-women-team{
     padding-left: 13.5rem;
+  }
+  .second-section {
+    width: 33%;
+    position: relative;
+    bottom: 89rem;
+    left: 33rem;
+  }
+  .first-div{
+    left: 5rem;
+  }
+  .second-div{
+    left: 5rem;
+  } 
+  .third-div{
+    left: 5rem;
+  }
+  .right-side-1{
+    left: 20rem;
+position: relative;
+top: -7rem;
+
+  }
+  .right-side-2{
+    left: 28rem;
+    position: relative;
+    top: -18rem;
+  }
+  .right-side-3{
+    width: 15%;
+position: relative;
+left: 35rem;
+bottom: 27.5rem;
+  }
+  .right-side-4{
+    width: 15%;
+    position: relative;
+    top: -43.2rem;
+    left: 42rem;
   }
   }
   /**** devices with 1000px max *******/
