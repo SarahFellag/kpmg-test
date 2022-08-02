@@ -1583,5 +1583,18 @@ top: -267px;
 .events {
   top: -127rem;
 }
+  .event-position{
+    display: grid;
+}
+  #row-stats {
+  top: -22px;
+    display: grid;
+    
+}
+  .bg-stats {
+  height: 6rem;
+  bottom: -6rem;
+  display: none;
 }
 
+}
