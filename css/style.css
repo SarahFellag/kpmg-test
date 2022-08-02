@@ -826,423 +826,651 @@ END************
 
 
 
-
-
-
-
-/*****************************/
-/****** MEDIA QUERIES ********/
-/*****************************/
-/***** devices with 600px max ******/
-@media screen and (max-width: 480px) {
-h1{
-  font-size: 45px;
-}
-p{
-  font-size: 25px;
-}
-.row{
-  display:list-item;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.left{
-  width: 100%;
-}
-.right{
-  width: 100%;
-}
-#price-title{
-font-size: 50px;
-}
-#list-content-price{
-  background: transparent;
-}
-#price-content-span{
-padding-left: 50px;
-}
-#content-price-paragraph{
-  padding-left: 0;
-}
-.header{
-  background-size: cover;
-  padding: 30px;
-}
-.logo2{
-  margin-left: 50px;
-}
-.logo{
-  margin-left: 106px;
-  margin-top: 100px;
-}
-.navbar{
-  display: inline;
-}
-.nav{
-  margin-left: -68px !important;
-  flex: 0;
-}
-nav ul li{
-margin-right: 55px;
-}
-li{
-  background: chocolate;
-}
- li:hover{
-          background: transparent;
-          color:white
-        }
-}
-.left-team{
-  width: 150%;
-}
-.right-man-team{
-  width: 100%;
-  padding-left: 0rem;
-}
-.right-women-team{
-  padding-left: 0rem;
-}
-/*** devices with 800px max *****/
-@media (max-width: 800px) {
-  h1{
-    font-size: 45px;
+/** Devices with width: 1680px */
+@media screen and (max-width: 1680px) {
+  nav{
+    margin-left: 267px;
   }
-  p{
-    font-size: 25px;
+  .desc-box{
+    top: -196px;
   }
-  .row{
-    display:list-item;
-    padding-left: 10px;
-    padding-right: 10px;
+  #prix{
+    padding-left: 11px !important;
   }
-  .left{
-    width: 100%;
+  #image2015, #image2016, #image2017, #image2018, #image2019{
+    width: 424px;
   }
-  .right{
-    width: 100%;
+  .year-2018,.year-2019{
+    width: 84% !important;
+    padding-left: 11rem !important;
   }
-  #price-title{
-  font-size: 50px;
+}
+/***********************************/
+@media screen and (max-width: 1400px) {
+  .countdown-container{
+    padding-left: 26rem;
+    padding-top: 10rem;
   }
-  #list-content-price{
-    background: transparent;
+  .desc-box{
+    top: -304px;
   }
-  #price-content-span{
-  padding-left: 50px;
+  .desc-box h1{
+    font-size: 38px;
   }
-  #content-price-paragraph{
-    padding-left: 0;
+  .desc-box p{
+    font-size: 27px;
   }
-  .header{
-    background-size: cover;
-    padding: 30px;
+  #prix-position{
+    top: -299px;
   }
-  .logo2{
-    margin-left: 50px;
+  .cards{
+    top: -368px;
+  }
+  #prix{
+    padding-left: 0rem !important;
+  }
+  .card{
+    padding-left: 70px;
+  }
+  .timeline{
+    top: -45rem;
+  }
+  .team{
+    bottom: 1144px;
+  }
+  .photo1 img{
+    width: 270px;
+    height: 350px;
+  }
+  .photo2 img{
+    width: 270px;
+    height: 350px;
+  }
+  #title-team-member{
+    font-size: 30px;
+  }
+  .events{
+    top: -115rem;
+  }
+  #image2015, #image2016, #image2017, #image2018, #image2019{
+    width: 340px;
+  }
+  .desc2 h1{
+    bottom: 129rem;
+  }
+  .stats{
+    bottom: 139rem;
+  }
+  .desc3{
+    top: -140rem;
+  }
+  .titledesc3 h3{
+    font-size: 46px;
+  }
+  .leftsidedesc3 p{
+    font-size: 22px;
+  }
+  .rightsidedesc3 p{
+    font-size: 22px;
+  }
+  .stats2{
+    top: -146rem;
+  }
+  .desc4{
+    top: -153rem;
+  }
+  .footer{
+    bottom: 165rem;
+  }
+  .title-footer h1{
+    font-size: 64px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #img1{
+    width: 110px;
+    height:52px;
+  }
+  #img2{
+    width: 220px;
+    height: 66px;
   }
   .logo{
-    margin-left: 106px;
-    margin-top: 100px;
+    margin-left: -272px;
   }
-  .navbar{
-    display: inline;
+  .desc-box{
+    top: -355px;
   }
-  .nav{
-    margin-left: -68px !important;
-    flex: 0;
+  .desc-box h1{
+    font-size: 33px;
   }
-  nav ul li{
-  margin-right: 55px;
+  .desc-box p{
+    font-size: 23px;
   }
-  li{
-    background: chocolate;
+  #prix-position{
+    top: -367px;
   }
-  li:hover{
-    background: transparent;
-    color:white
+  #price-title{
+    font-size: 67px;
   }
-  .left-team{
-    width: 136% !important;
+  #paragraph-price{
+    font-size: 27px;
   }
-  .right-man-team{
-    width: 100%;
-    padding-left: 13.5rem;
+  #price-content-span {
+    font-size: 24px;
   }
-  .right-women-team{
-    padding-left: 13.5rem;
+  #content-price-paragraph{
+    font-size: 17px;
   }
-  .second-section {
-    width: 33%;
+  .card{
+    padding-left: 54px;
+  }
+  #timeline-title {
+    font-size: 54px;
+    top: 13rem;
+  }
+  #timeline-image{
+    padding-top: 13rem;
+  }
+  .timeline{
+    height: 81rem;
+  }
+  #team-title{
+    font-style: 89px;
+  }
+  #team-desc{
+    padding-right: 5rem;
+  }
+  .photo1 img{
+    height: 285px;
+    width: 220px;
+  }
+  .photo2 img{
+    height: 285px;
+    width: 220px;
+  }
+  .team{
+    bottom: 1106px;
+  }
+  #team-title-member{
+    font-size: 25px;
+  }
+  #desc-team-member{
+    font-size: 17px;
+  }
+  #image2015, #image2016, #image2017, #image2018, #image2019{
+    width: 309px;}
+  .titledesc3 h3{
+    font-size: 36px;
+  }  
+  .leftsidedesc3 p{
+    font-size: 19px;
+  }
+  .rightsidedesc3 p{
+    font-size: 19px;
+  }
+  #second-event-row{
+    padding-left: 77px;
+  }
+  .title-footer h1{
+    font-size: 49px;
+  }
+  .p-div p{
+    font-size: 27px;
+  }
+  .button{
+   width: 177px;
+   height: 60px;
+   font-size: 17px;
+   border-top-left-radius: 28px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .countdown-container{
+    padding-left: 20rem;
+    padding-top: 4rem;
+  }
+
+  .logo{
+    margin-left: -275px;
     position: relative;
-    bottom: 89rem;
-    left: 33rem;
   }
-  .first-div{
-    left: 5rem;
+  .card{
+    padding-left: 43px;
   }
-  .second-div{
-    left: 5rem;
+  #title-team-member{
+    font-size: 23px;
+  }
+  #image2015, #image2016, #image2017, #image2018, #image2019 {
+  width: 283px;
+  height: 20rem;
+  }
+  .year-2015{
+    position: relative;
+    bottom: -3rem;
   } 
-  .third-div{
-    left: 5rem;
+  .year-2016{
+    position: relative;
+    bottom: -3rem;
+  } 
+  .year-2017{
+    position: relative;
+    bottom: -3rem;
   }
-  .right-side-1{
-    left: 20rem;
-position: relative;
-top: -7rem;
+  .year-2018{
+    position: relative;
+    bottom: 3rem;
+  }
+  .year-2019{
+    position: relative;
+    bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo{
+    position: absolute;
+    margin-left: -224px;
+    margin-top: -7rem;
 
   }
-  .right-side-2{
-    left: 28rem;
+  .logo2{
+    margin-left: -111px;
+    margin-top: -7rem;
+  }
+  nav{
+    margin-left: 90px;
+  }
+  .days-label, .hours-label, .minutes-label, .seconds-label {
+    font-size: 10px;
+  }
+  .days-container, .hours-container, .minutes-container, .seconds-container {
+  width: 100px;
+height: 102px;
+  }
+  li{
+    margin-top: 4px;
+    margin-left: 98px;
+  }
+  .desc-box h1{
+    font-size: 26px;
+  }
+  .desc-bpx p{
+    font-size: 17px;
+  }
+  .desc-box {
+    top: -449px;
+  }
+  #list-content-price {
+    font-size: 15px;}
+  #price-title {
+      font-size: 56px;
+    }
+   #paragraph-price {
+      font-size: 21px;
+    } 
+    #content-price-paragraph {
+      font-size: 15px;
+    }
+    .card {
+      padding-left: 16px;
+    }
+    .timeline {
+      top: -45rem;
+    }
+    #timeline-title {
+      top: 11rem;
+        }
+    #timeline-image {
+      padding-top: 9rem;
+    }
+    .cards {
+      top: -459px;
+    }
+    #team-desc {
+      font-size: 18px;
+    }
+    .photo1 img {
+      height: 220px;
+      width: 170px;
+    }
+    .photo2 img {
+      height: 220px;
+      width: 170px;
+    }
+    #image2015, #image2016, #image2017, #image2018, #image2019 {
+      width: 240px;
+      height: 15rem;
+      }
+      .year-2015{
+        position: relative;
+        bottom: -3rem;
+      } 
+      .year-2016{
+        position: relative;
+        bottom: -3rem;
+      } 
+      .year-2017{
+        position: relative;
+        bottom: -3rem;
+      }
+      .year-2018{
+        position: relative;
+        bottom: 3rem;
+      }
+      .year-2019{
+        position: relative;
+        bottom: 3rem;
+      }
+      .year-2018, .year-2019 {
+        padding-left: 8rem !important;
+      }
+      #image-stats {
+        width: 75%;
+        height: 76%;}
+        .stats-title h3{
+          font-size: 17px;
+        }
+        .number h1{
+          font-size: 2rem;
+        }
+        .stats {
+          bottom: 131rem;
+        }
+        .bg-stats{
+        height: 6rem;
+        bottom: -6rem;
+        }
+        #row-stats{
+          top: -21px;
+        }
+        .desc3 {
+          top: -132rem;
+        }
+        .titledesc3 h3 {
+          font-size: 30px;
+        }
+        .leftsidedesc3 p {
+          font-size: 16px;
+        }
+        .rightsidedesc3 p{
+          font-size: 16px;
+        }
+        #title-team-member {
+          font-size: 18px;
+        }
+        #desc-team-member {
+          font-size: 14px;
+        }
+        .leftstats2 img{
+          width: 200px;
+          height: 80px
+        }
+        .bg-stats2{
+          top: 0rem;
+          height: 7rem;
+        }
+        .stats2{
+          top: -138rem;
+        }
+        .desc4 {
+          top: -148rem;
+        }
+        .title-footer h1 {
+          font-size: 40px;
+        }
+        .title-div h3 {
+          font-size: 36px;
+        }
+        .p-div p {
+          font-size: 18px;
+          padding-top: 25px;
+        }
+        .button {
+          width: 120px;
+          height: 41px;
+          font-size: 15px;
+          border-top-left-radius: 21px;
+        }
+        .footer {
+          bottom: 163rem;
+        }
+        .bgfooter{
+          height: 43rem;
+        }
+        #footer-position{
+          top: 150px;
+        }
+        .title-footer h1{
+          top: -36rem;
+        }
+}
+@media screen and (max-width: 991px) {
+  .desc-box h1 {
+    font-size: 22px;
+  }
+  .desc-box p {
+    font-size: 18px;
+  }
+  .card {
+    padding-left: 12px;
+  }
+  .footer {
+    padding-top: 5rem;
+  }
+  .titledesc3 h3 {
+    padding-top: 2rem;
+  }
+  #image-stats {
+    width: 68%;
+    height: 64%;
+  }
+  #timeline-image {
+    padding-top: 16rem;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  #img1 {
+    width: 80px;
+    height: 38px;
+  }
+  #img2 {
+    width: 150px;
+    height: 43px;
+  }
+  .logo {
+    margin-left: -189px;
+    margin-top: -10rem;
+  }
+  .logo2 {
+    margin-left: -98px;
+    margin-top: -10rem;
+  }
+  .days, .hours, .minutes, .seconds {
+    font-size: 2.5em;
+    margin: 15px 0;
+  }
+  .days-label, .hours-label, .minutes-label, .seconds-label {
+    font-size: 7px;
+    margin-bottom: 1rem;
+  }
+  .days-container, .hours-container, .minutes-container, .seconds-container {
+    width: 79px;
+    height: 76px;
+  }
+  .countdown-container {
+    padding-left: 10rem;
+    padding-top: 0rem;
+  }
+  .desc-box h1 {
+    font-size: 16px;
+  }
+  .desc-box p {
+    font-size: 15px;
+  }
+  .desc-box {
+    top: -548px;
+  }
+  #prix-position {
+    top: -513px;
+  }
+  #price-title {
+    font-size: 40px;
+  }
+  #price-content-span {
+    font-size: 18px;
+  }
+  #price-content-span img{
+      height: 47px;
+      width: 25px;
+  }
+  #list-content-price {
+    font-size: 15px;
+  }
+  #content-price-paragraph {
+    font-size: 12px;
+    text-align: left;
+  }
+  .card .slide {
+    width: 114px;
+    height: 194px;
+    transition: 0.5s;
+  }
+  #text-card {
+    font-size: 13px;
+  }
+  .bg {
+    top: 30px;
+    height: 135px;
+    z-index: 0;
     position: relative;
-    top: -18rem;
+    background: #f2f2f2;
   }
-  .right-side-3{
-    width: 15%;
-position: relative;
-left: 35rem;
-bottom: 27.5rem;
+  #prix {
+    padding-left: -16rem !important;
+    top: -16rem;
   }
-  .right-side-4{
-    width: 15%;
+  .card {
+    padding-left: 9px;
+  }
+  .timeline {
+    top: -55rem;
+    height: 49rem;
+    }
+    #timeline-image {
+      padding-top: 3rem;
+    }
+    #timeline-title {
+      top: 5rem;
+    }
+    .team {
+      bottom: 68rem;
+    }
+    #team-title {
+      font-size: 77px;
+    }
+    #team-desc {
+      font-size: 14px;
+    }
+    #title-team-member {
+      font-size: 15px;
+    }
+    .photo1 img {
+      height: 148px;
+      width: 110px;
+    }
+    .photo2 img {
+      height: 148px;
+      width: 110px;
+    }
+    #image2015, #image2016, #image2017, #image2018, #image2019 {
+      width: 150px;
+      height: 141px;
+    }
+    #second-event-row {
+      padding-left: 31px;
+    }
+    .bg-events{
+      height: 36rem;
+    }
+    #event-position{
+      top: 172px;
+    }
+    #second-event-row {
+      padding-left: 32px;
+      top: 13rem;
+    }
+    .titledesc3 h3 {
+      font-size: 27px;
+    }
+    .leftsidedesc3 p {
+      font-size: 13px;
+    }
+    .rightsidedesc3 p{
+      font-size: 13px;
+    }
+    .stats-title h3 {
+      font-size: 13px;
+    }
+    .number h1 {
+      font-size: 28px;
+    }
+    .title-div h3 {
+      font-size: 27px;
+    }
+    .p-div p {
+      font-size: 15px;
+      padding-top: 25px;
+    }
+    .button {
+      width: 142px;
+      
+    }
+    .second-section {
+      left: 9rem;
+    }
+
+}
+@media screen and (max-width: 600px) {
+  .logo2 {
+    margin-left: -75px;
+    margin-top: -16rem;
+  }
+  .logo {
+    margin-left: -163px;
+    margin-top: -16rem;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 4px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    text-align: left;
+  }
+  ul {
+    top: -2rem;
+    left: 7rem;
+  }
+  .countdown-container {
+    padding-left: 5rem;
+    padding-top: 0rem;
     position: relative;
-    top: -43.2rem;
-    left: 42rem;
+    top: -6rem;
   }
+  .desc-box h1 {
+    font-size: 10px;
   }
-  /**** devices with 1000px max *******/
-  @media (max-width: 1000px) {
-    h1{
-      font-size: 45px;
-    }
-    p{
-      font-size: 25px;
-    }
-    .row{
-      display:list-item;
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-    .left{
-      width: 100%;
-    }
-    .right{
-      width: 100%;
-    }
-    #price-title{
-    font-size: 50px;
-    }
-    #list-content-price{
-      background: transparent;
-    }
-    #price-content-span{
-    padding-left: 50px;
-    }
-    #content-price-paragraph{
-      padding-left: 0;
-    }
-    .header{
-      background-size: cover;
-      padding: 30px;
-    }
-    .logo2{
-      margin-left: 50px;
-    }
-    .logo{
-      margin-left: 106px;
-      margin-top: 100px;
-    }
-    .navbar{
-      display: inline;
-    }
-    .nav{
-      margin-left: -68px !important;
-      flex: 0;
-    }
-    nav ul li{
-    margin-right: 55px;
-    }
-    li{
-      background: chocolate;
-    }
-    li:hover{
-      background: transparent;
-      color:white
-    }
-    }
-    /*** devices with 1200px max **/
-    @media (max-width:1200px) {
-      h1{
-        font-size: 45px;
-      }
-      p{
-        font-size: 25px;
-      }
-      .row{
-        display:list-item;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      .left{
-        width: 100%;
-      }
-      .right{
-        width: 100%;
-      }
-      #price-title{
-      font-size: 50px;
-      }
-      #list-content-price{
-        background: transparent;
-      }
-      #price-content-span{
-      padding-left: 50px;
-      }
-      #content-price-paragraph{
-        padding-left: 0;
-      }
-      .header{
-        background-size: cover;
-        padding: 30px;
-      }
-      .logo2{
-        margin-left: 50px;
-      }
-      .logo{
-        margin-left: 106px;
-        margin-top: 100px;
-      }
-      .navbar{
-        display: inline;
-      }
-      .nav{
-        margin-left: -68px !important;
-        flex: 0;
-      }
-      nav ul li{
-      margin-right: 55px;
-      }
-      li{
-        background: chocolate;
-      }
-      li:hover{
-        background: transparent;
-        color:white
-      }
-      }
-      @media (max-width: 1400px) {
-        h1{
-          font-size: 45px;
-        }
-        p{
-          font-size: 25px;
-        }
-        .row{
-          display:list-item;
-          padding-left: 10px;
-          padding-right: 10px;
-        }
-        .left{
-          width: 100%;
-        }
-        .right{
-          width: 100%;
-        }
-        #price-title{
-        font-size: 50px;
-        }
-        #list-content-price{
-          background: transparent;
-        }
-        #price-content-span{
-        padding-left: 50px;
-        }
-        #content-price-paragraph{
-          padding-left: 0;
-        }
-        .header{
-          background-size: cover;
-          padding: 30px;
-        }
-        .logo2{
-          margin-left: 50px;
-        }
-        .logo{
-          margin-left: 106px;
-          margin-top: 100px;
-        }
-        .navbar{
-          display: inline;
-        }
-        .nav{
-          margin-left: -68px !important;
-          flex: 0;
-        }
-        nav ul li{
-        margin-right: 55px;
-        }
-        li{
-          background: chocolate;
-        }
-        li:hover{
-          background: transparent;
-          color:white
-        }
-        }
-        /*devices with max width 400px */
-        @media (max-width: 400px) {
-          h1{
-            font-size: 45px;
-          }
-          p{
-            font-size: 25px;
-          }
-          .row{
-            display:list-item;
-            padding-left: 10px;
-            padding-right: 10px;
-          }
-          .left{
-            width: 100%;
-          }
-          .right{
-            width: 100%;
-          }
-          #price-title{
-          font-size: 50px;
-          }
-          #list-content-price{
-            background: transparent;
-          }
-          #price-content-span{
-          padding-left: 50px;
-          }
-          #content-price-paragraph{
-            padding-left: 0;
-          }
-          .header{
-            background-size: cover;
-            padding: 30px;
-          }
-          .logo2{
-            margin-left: 50px;
-          }
-          .logo{
-            margin-left: 106px;
-            margin-top: 100px;
-          }
-          .navbar{
-            display: inline;
-          }
-          .nav{
-            margin-left: 10px !important;
-            flex: 0;
-          }
-          nav ul li{
-          margin-right: 55px;
-          }
-          li{
-            background: chocolate;
-          }
-          }
+  .desc-box p {
+    font-size: 8px;
+  }
+  .desc-box {
+    top: -617px;
+  }
+
+}
