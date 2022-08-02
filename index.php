@@ -262,18 +262,18 @@
     <div class="row" id="team-pos">
         <div class="left-team">
             <h1 id="team-title">Jury</h1>
-            <p id="team-desc">Le jury se compose, cette année, de 3 associés
-                de KPMG France et 3 associés d’EIM, dont
-                Marie Guillemot, Présidente du Directoire
-                de KPMG France, ayant elle-même pris ses
-                fonctions en 2021, et Frédéric Marquette,
+            <p id="team-desc">Le jury se compose, cette année, de 3 associés<br>
+                de KPMG France et 3 associés d’EIM, dont<br>
+                Marie Guillemot, Présidente du Directoire<br>
+                de KPMG France, ayant elle-même pris ses<br>
+                fonctions en 2021, et Frédéric Marquette,<br>
                 Associé EIM et fondateur du Prix.</p>
         </div>
         <div class="right-man-team">
                 <div class="member">
                     <div class="photo1"><img src="src/marie_img.jpg" width="335" height="434" alt=""></div>
                     <h4 id="title-team-member">Marie Guillemot</h4>
-                    <p id="desc-team-member">Présidente du Directoire
+                    <p id="desc-team-member">Présidente du Directoire<br>
                         de KPMG France</p>
                 </div>
         </div>
@@ -281,7 +281,7 @@
                   <div class="member">
                       <div class="photo1"><img src="src/federic_img.jpg" width="335" height="434" alt=""></div>
                       <h4 id="title-team-member">Frédéric Marquette</h4>
-                      <p id="desc-team-member">Associé EIM et fondateur
+                      <p id="desc-team-member">Associé EIM et fondateur<br>
                         du Prix des 100 jours</p>
                   </div>
         </div>
@@ -388,7 +388,7 @@
     <div class="bg-stats2"></div>
     <div class="row" id="stats2-position">
         <div class="leftstats2">
-            <img src="src/ci_47.png" alt="">
+            <img id="image-stats2" src="src/ci_47.png" alt="">
         </div>
         <div class="rightside-stats2-1">
             <div class="number"><h1>150</h1></div>
@@ -407,7 +407,7 @@
 <!--------------------------------------------------------->
 <section class="desc4" data-aos="fade-down">
     <div class="titledesc3">
-        <h3>À propos d’EIM</h3>
+        <h3>À propos de KPMG</h3>
     </div>
     <div class="row">    
         <div class="leftsidedesc3">
@@ -436,7 +436,7 @@
                     <h3>Date & horaires</h3>
                 </div>
                 <div class="p-div">
-                    <p>Lundi 11 octobre 2021
+                    <p>Lundi 11 octobre 2021<br>
                         à partir de 18h30</p>
                 </div>
             </div>
@@ -445,18 +445,15 @@
                     <h3>Lieu</h3>
                 </div>
                 <div class="p-div">
-                    <p>Pavillon Dauphine, Place du Maréchal
+                    <p>Pavillon Dauphine, Place du Maréchal<br>
                         de Lattre de Tassigny, 75 016 Paris</p>
                 </div>
             </div>
             <div class="third-div">
                 <div class="title-div">
-                    <h3>Date & horaires</h3>
+                    <h3>Parking</h3>
                 </div>
-                <div class="p-div">
-                    <p>Lundi 11 octobre 2021
-                        à partir de 18h30</p>
-                </div>
+                
             </div>
         </div>
         <div class="second-section">
