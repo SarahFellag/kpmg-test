@@ -91,7 +91,7 @@
 </section>                        
 <!-- end of desc box -->        
 <!-- start of prix-->
-<section class="row" data-aos="fade-up">
+<section class="row" id="prix-position" data-aos="fade-up">
     <div class="left">
         <h1 id="price-title">De nouveaux prix<br>
             pour récompenser<br>
@@ -133,7 +133,7 @@
 
 <section class="cards" data-aos="fade-up">
 <div class="bg"></div>
-<div class="row">  
+<div class="row" id="prix">  
     <!-- card 1--> 
 <div class="wrapper">
 <div class="card">
@@ -245,7 +245,7 @@
         </div>
     </div>
     <!---------->
-</div>
+  </div>
 </div>
 </section>
 <!--cards end-->
@@ -271,25 +271,25 @@
         </div>
         <div class="right-man-team">
                 <div class="member">
-                    <div class="photo1"><img src="src/federic_img.jpg" width="335" height="434" alt=""></div>
-                    <h4 id="title-team-member">Frédéric Marquette</h4>
-                    <p id="desc-team-member">Associé EIM et fondateur
-                        du Prix des 100 jours</p>
+                    <div class="photo1"><img src="src/marie_img.jpg" width="335" height="434" alt=""></div>
+                    <h4 id="title-team-member">Marie Guillemot</h4>
+                    <p id="desc-team-member">Présidente du Directoire
+                        de KPMG France</p>
                 </div>
         </div>
         <div class="right-women-team">
                   <div class="member">
-                      <div class="photo1"><img src="src/marie_img.jpg" width="335" height="434" alt=""></div>
-                      <h4 id="title-team-member">Marie Guillemot</h4>
-                      <p id="desc-team-member">Présidente du Directoire
-                        de KPMG France</p>
+                      <div class="photo1"><img src="src/federic_img.jpg" width="335" height="434" alt=""></div>
+                      <h4 id="title-team-member">Frédéric Marquette</h4>
+                      <p id="desc-team-member">Associé EIM et fondateur
+                        du Prix des 100 jours</p>
                   </div>
         </div>
     </div>
 </section>
 <section class="events" data-aos="fade-up">
     <div class="bg-events"></div>
-    <div class="row">
+    <div class="row" id="event-position">
         <div class="year-2015" data-aos="fade-down">
             <img id="image2015" src="src/2015_img.jpg" alt="">
             <div class="title-image-year">
@@ -309,7 +309,7 @@
             </div>
         </div>
     </div>
-    <div class="row">
+    <div class="row" id="second-event-row">
         <div class="year-2018" data-aos="fade-up">
             <img id="image2018" src="src/2018_img.jpg" alt="">
             <div class="title-image-year">
@@ -330,8 +330,8 @@
 <!----------------------------------------------->
 <section class="stats" data-aos="fade-down">
     <div class="bg-stats"></div>
-    <div class="row">
-        <div class="left-side">
+    <div class="row" id="row-stats">
+            <div class="left-side">
             <img id="image-stats" src="src/ci_46.png" alt="">
         </div>
         <div class="right-side-1">
@@ -386,7 +386,7 @@
 <!---------------------------------------------------->
 <section class="stats2" data-aos="fade-down">
     <div class="bg-stats2"></div>
-    <div class="row">
+    <div class="row" id="stats2-position">
         <div class="leftstats2">
             <img src="src/ci_47.png" alt="">
         </div>
@@ -429,7 +429,7 @@
     <div class="title-footer">
         <h1>Informations pratiques</h1>
     </div>
-    <div class="row">
+    <div class="row" id="footer-position">
         <div class="first-section">
             <div class="first-div">
                 <div class="title-div">
